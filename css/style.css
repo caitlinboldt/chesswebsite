@@ -1,0 +1,308 @@
+
+/* Part 1 */
+
+.part1 {
+    background-color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+.part1 img {
+    height: 400px;
+    width: 650px;
+}
+.part1 h1 {
+    color: black;
+    font-size: 80px;
+    font-family: 'Niconne', cursive;
+}
+
+/* Part 2 */
+
+.part2 {
+    background-color: lightblue;
+    padding: 50px 10px;
+}
+.part2 h6 {
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+}
+.part2 p {
+    font-size: 16px;
+}
+
+/* Part 3 */
+
+.part3 {
+    background-color: navy;
+}
+.part3 h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    padding: 20px 0 5px 0;
+}
+.part3 .top {
+    color: white;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+.part3 .card {
+    width: 20em;
+    height: 35em;
+    margin: 3em;
+}
+.part3 img {
+    height: 310px;
+}
+.part3 .card h5 {
+    font-size: 20px;
+}
+.part3 .card h6 {
+    font-size: 14px;
+    font-weight: 100;
+}
+.part3 .card p {
+    font-size: 16px;
+}
+.part3 .fa-facebook-f {
+    color: #3B60B8;
+    font-size: 20px;
+}
+.part3 .fa-linkedin {
+    color: #009EFA;
+    font-size: 20px;
+}
+.part3 .fa-amazon {
+    color: black;
+    font-size: 20px;
+}
+
+/* Part 4 */
+
+.part4 .btn1 {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 15px;
+}
+.btn1:hover {
+    background-color: darkgray;
+}
+.part4 .btn2 {
+    background-color: navy;
+    border: none;
+    padding: 10px 15px;
+}
+.btn2:hover {
+    background-color: darkgray;
+}
+.part4 img {
+    height: 100px;
+    margin-top: 10px;
+    width: 100px;
+}
+.part4 h5 {
+    font-weight: 600;
+}
+.part4 p {
+   font-weight: 200;
+}
+.part4 {
+    padding: 50px;
+}
+
+/* Part 5 */
+
+.part5 {
+    background-color: lightblue;
+    height: 650px;
+}
+.part5 h2 {
+    color: black;
+    font-size: 60px;
+    font-weight: 100;
+    padding: 20px 0 5px 0;
+}
+.part5 .top {
+    color: black;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+.part5 img {
+    height: 150px;
+}
+.part5 h6 {
+    font-weight: 100;
+    font-style: italic;
+}
+.part5 button {
+    font-weight: 600;
+    padding: 15px 20px;
+    margin: 30px;
+}
+
+/* Part 6 */
+
+.part6 {
+    background-color: black;
+    height: 800px;
+    opacity: 0.8;
+}
+.part6 h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    padding: 20px 0 5px 0;
+}
+.part6 p {
+    color: white;
+}
+.part6 .form-group {
+    width: 500px;
+}
+.part6 button {
+    color: black;
+    font-weight: 600;
+    padding: 15px 20px;
+    margin: 30px;
+}
+.part6 button:hover {
+    background-color: gray;
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+}
+.footer hr {
+    color: black;
+}
+.footerlinks {
+    float: left;
+}
+.footerlinks a {
+    color: white;
+    padding: 5px 10px 0 10px;
+}
+.footerlinks a:hover {
+    color: gray;
+}
+.copyright {
+    float: right;
+}
+.copyright h6 {
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+}
+.copyright span {
+    color: lightgreen;
+    font-weight: 600;
+}
+
+/* Media Queries */
+
+@media (max-width: 1100px) {
+    .part3 .card {
+        width: 18em;
+        height: 35em;
+    }
+
+}
+@media (max-width: 930px) {
+    .part1 h1 {
+        font-size: 40px;
+    }
+    .part2 h6 {
+        font-size: 14px;
+    }
+    .part2 p {
+        font-size: 10px;
+    }
+    .part3 .card {
+        height: 30em;
+        width: 15em;
+    }
+    .part3 img {
+        height: 200px;
+    }
+}
+@media (max-width: 750px) {
+    .part3 .card {
+        height: 25em;
+        margin: 1em;
+        width: 15em;
+    }
+    .part3 img {
+        height: 180px;
+    }
+    .part3 .card h5 {
+        font-size: 16px;
+    }
+    .part3 .card h6 {
+        font-size: 10px;
+    }
+    .part3 .card p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 600px) {
+    .part1 h1 {
+        font-size: 30px;
+    }
+    .part2 h6 {
+        font-size: 10px;
+    }
+    .part2 p {
+        font-size: 8px;
+    }
+    .part3 .card {
+        height: 21em;
+        margin: 0.3em;
+        width: 12em;
+    }
+    .part3 img {
+        height: 140px;
+    }
+    .part3 .card h5 {
+        font-size: 14px;
+    }
+    .part3 .card h6 {
+        font-size: 8px;
+    }
+    .part3 .card p {
+        font-size: 10px;
+    }
+}
+@media (max-width: 472px) {
+    .part3 .card {
+        height: 19em;
+        margin: 0.2em;
+        width: 10em;
+    }
+    .part3 img {
+        height: 120px;
+    }
+    .part3 .card h5 {
+        font-size: 12px;
+    }
+    .part3 .card h6 {
+        font-size: 8px;
+    }
+    .part3 .card p {
+        font-size: 8px;
+    }
+    .part3 .fa-facebook-f {
+        color: #3B60B8;
+        font-size: 16px;
+    }
+    .part3 .fa-linkedin {
+        color: #009EFA;
+        font-size: 16px;
+    }
+    .part3 .fa-amazon {
+        color: black;
+        font-size: 16px;
+    }
+}
