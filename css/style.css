@@ -263,6 +263,9 @@
     .part2 p {
         font-size: 8px;
     }
+    .part3 h2 {
+        font-size: 30px;
+    }
     .part3 .card {
         height: 21em;
         margin: 0.3em;
@@ -279,6 +282,15 @@
     }
     .part3 .card p {
         font-size: 10px;
+    }
+    .part5 h2 {
+        font-size: 30px;
+    }
+    .part5 .card {
+        margin: 30px;
+    }
+    .part6 h2 {
+        font-size: 30px;
     }
 }
 @media (max-width: 472px) {
