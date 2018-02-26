@@ -1,25 +1,30 @@
+body {
+    
+}
 
 /* Part 1 */
 
 .part1 {
-    background-color: white;
-    margin-top: 80px;
+    background-image: url(https://github.com/caitlinboldt/firstcommit/blob/master/img/chess.jpg?raw=true);
+    height: 500px;
     text-align: center;
-}
-.part1 img {
-    height: 400px;
-    width: 650px;
 }
 .part1 h1 {
     color: black;
-    font-size: 80px;
+    font-size: 90px;
     font-family: 'Niconne', cursive;
+    padding-top: 120px;
+}
+.part1 h4 {
+    color: black;
+    font-size: 26px;
+    font-weight: 200;
 }
 
 /* Part 2 */
 
 .part2 {
-    background-color: lightblue;
+    background-color: white;
     padding: 50px 10px;
 }
 .part2 h6 {
@@ -34,16 +39,16 @@
 /* Part 3 */
 
 .part3 {
-    background-color: navy;
+    background-color: lightblue;
 }
 .part3 h2 {
-    color: white;
+    color: black;
     font-size: 60px;
     font-weight: 100;
     padding: 20px 0 5px 0;
 }
 .part3 .top {
-    color: white;
+    color: black;
     font-size: 16px;
     padding-bottom: 25px;
 }
@@ -89,7 +94,7 @@
     background-color: darkgray;
 }
 .part4 .btn2 {
-    background-color: navy;
+    background-color: turquoise;
     border: none;
     padding: 10px 15px;
 }
@@ -203,7 +208,7 @@
     font-weight: 200;
 }
 .copyright span {
-    color: lightgreen;
+    color: turquoise;
     font-weight: 600;
 }
 
@@ -252,6 +257,9 @@
     .part3 .card p {
         font-size: 12px;
     }
+    .part5 .card {
+        margin: 30px;
+    }
 }
 @media (max-width: 600px) {
     .part1 h1 {
@@ -287,7 +295,7 @@
         font-size: 30px;
     }
     .part5 .card {
-        margin: 30px;
+        margin: 35px;
     }
     .part6 h2 {
         font-size: 30px;
@@ -296,7 +304,7 @@
 @media (max-width: 472px) {
     .part3 .card {
         height: 19em;
-        margin: 0.2em;
+        margin: 0.5em;
         width: 10em;
     }
     .part3 img {
