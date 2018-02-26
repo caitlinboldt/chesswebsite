@@ -303,9 +303,9 @@ body {
 }
 @media (max-width: 472px) {
     .part3 .card {
-        height: 19em;
-        margin: 0.5em;
-        width: 10em;
+        height: 20em;
+        margin: 0.4em;
+        width: 9em;
     }
     .part3 img {
         height: 120px;
