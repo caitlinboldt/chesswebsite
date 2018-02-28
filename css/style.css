@@ -33,7 +33,7 @@
 }
 .part2 .box {
     border: 1px solid black;
-    padding: 30px;
+    padding: 35px;
 }
 
 /* Part 3 */
@@ -50,7 +50,7 @@
 .part3 .top {
     color: black;
     font-size: 16px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 .part3 .card {
     width: 22em;
@@ -155,7 +155,7 @@
 
 .part6 {
     background-color: black;
-    height: 850px;
+    height: 860px;
     opacity: 0.8;
 }
 .part6 h2 {
@@ -188,9 +188,6 @@
 .footer hr {
     color: black;
 }
-.footerlinks {
-    float: left;
-}
 .footerlinks a {
     color: white;
     padding: 5px 10px 0 10px;
@@ -200,11 +197,11 @@
     color: gray;
 }
 .copyright {
-    float: right;
+    margin: 20px;
 }
 .copyright h6 {
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 200;
 }
 .copyright span {
@@ -224,12 +221,6 @@
 @media (max-width: 930px) {
     .part1 h1 {
         font-size: 40px;
-    }
-    .part2 h6 {
-        font-size: 14px;
-    }
-    .part2 p {
-        font-size: 10px;
     }
     .part3 .card {
         height: 30em;
@@ -266,10 +257,12 @@
         font-size: 30px;
     }
     .part2 h6 {
-        font-size: 10px;
+        font-size: 18px;
+        font-weight: 600;
     }
     .part2 p {
-        font-size: 8px;
+        font-size: 16px;
+        font-weight: 200;
     }
     .part3 h2 {
         font-size: 30px;
