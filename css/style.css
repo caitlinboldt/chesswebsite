@@ -160,41 +160,70 @@ nav ul li a {
 
 .part6 {
     background-color: black;
-    height: 860px;
+    height: 500px;
     opacity: 0.8;
 }
 .part6 h2 {
     color: white;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 100;
+    margin-left: 50px;
+    margin-top: 50px;
     padding: 20px 0 5px 0;
 }
 .part6 p {
     color: white;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    margin-left: 50px;
 }
-.part6 .form-group {
-    width: 100%;
+.part6 h5 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.part6 h6 {
+    color: white;
+    font-weight: 100;
+    margin: 5px 0 5px 50px;
+    padding: 5px;
+}
+form {
+    margin-top: 100px;
+}
+.part6 input {
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    font-size: 16px;
+}
+#inputMessage {
+    height: 100px;
 }
 .part6 button {
-    color: black;
+    background-color: transparent;
+    color: whitesmoke;
     font-weight: 600;
-    padding: 15px 20px;
-    margin: 30px;
+    padding: 15px 30px;
+    margin: 20px;
 }
 .part6 button:hover {
     background-color: gray;
-}
+} 
 
 /* Footer */
 
 .footer {
+    background-color:black;
+    opacity: 0.8;
     padding: 20px;
 }
 .footer hr {
     color: black;
 }
 .footerlinks a {
-    color: white;
+    color: turquoise;
     padding: 5px 10px 0 10px;
     text-decoration: none;
 }
@@ -212,7 +241,8 @@ nav ul li a {
 .copyright span {
     color: turquoise;
     font-weight: 600;
-}
+} 
+
 
 /* Media Queries */
 
@@ -281,6 +311,12 @@ nav ul li a {
     }
 }
 @media (max-width: 750px) {
+    .part3 h2 {
+        color: black;
+        font-size: 45px;
+        font-weight: 100;
+        padding: 50px 0 5px 0;
+    }
     .part3 .card {
         height: 25em;
         margin: 1em;
@@ -300,6 +336,14 @@ nav ul li a {
     }
     .part5 .card {
         margin: 30px;
+    }
+    .part6 h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 100;
+        margin-left: 50px;
+        margin-top: 50px;
+        padding: 20px 0 5px 0;
     }
 }
 @media (max-width: 600px) {
@@ -344,7 +388,15 @@ nav ul li a {
         font-size: 30px;
     }
 }
+@media (max-width: 575px) {
+    .part6 {
+        background-color: black;
+        height: 900px;
+        opacity: 0.8;
+    } 
+}
 @media (max-width: 472px) {
+    
     .part3 .card {
         height: 20em;
         margin: 0.4em;
