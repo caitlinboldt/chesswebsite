@@ -146,9 +146,14 @@ nav ul li a {
     font-style: italic;
 }
 .part5 a {
-    color: navy;
-    padding: 0 10px 0 10px;
+    border: 1px solid black;
+    color: black;
+    margin: 0 5px 0 5px; 
+    padding: 3px 15px 3px 15px;
     text-decoration: none;
+}
+.part5 a:hover {
+    background-color: lightblue;
 }
 .part5 button {
     font-weight: 600;
@@ -389,6 +394,9 @@ form {
     }
 }
 @media (max-width: 575px) {
+    .part3 {
+        padding-top: 120px;
+    }
     .part6 {
         background-color: black;
         height: 900px;
