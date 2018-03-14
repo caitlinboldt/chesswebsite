@@ -7,21 +7,17 @@ nav ul li a {
 /* Part 1 */
 
 .part1 {
-    background-image: url(https://github.com/caitlinboldt/firstcommit/blob/master/img/chess.jpg?raw=true);
-    height: 500px;
+    background-image: url(/Users/caitlinboldt/Desktop/scacchi.vecchilibri/websitelayouts/websitelayout1/img/scacchiera_inferiore.jpg);
+    background-repeat: no-repeat; 
+    height: 400px;
+    margin-top: 120px;
     text-align: center;
 }
 .part1 h1 {
     color: black;
     font-size: 90px;
     font-family: 'Niconne', cursive;
-    padding-top: 120px;
-}
-.part1 h4 {
-    color: black;
-    font-size: 26px;
-    font-weight: 200;
-    padding-bottom: 100px;
+    padding-bottom: 180px;
 }
 
 /* Part 2 */
@@ -90,26 +86,18 @@ nav ul li a {
 
 /* Part 4 */
 
-.part4 .btn1 {
-    background-color: #3B60B8;
-    border: none;
+.fa-chess {
+    font-size: 70px;
+}
+.fa-chess-queen {
+    font-size: 70px;
+}
+.part4 .btn {
     padding: 10px 15px;
 }
-.btn1:hover {
+.btn:hover {
     background-color: darkgray;
-}
-.part4 .btn2 {
-    background-color: #E68509;
-    border: none;
-    padding: 10px 15px;
-}
-.btn2:hover {
-    background-color: darkgray;
-}
-.part4 img {
-    height: 110px;
-    margin-top: 10px;
-    width: 150px;
+    color: white;
 }
 .part4 h5 {
     font-weight: 600;
@@ -123,9 +111,6 @@ nav ul li a {
 
 /* Part 5 */
 
-.part5 {
-    background-color: lightblue;
-}
 .part5 h2 {
     color: black;
     font-size: 60px;
@@ -146,50 +131,57 @@ nav ul li a {
     font-style: italic;
 }
 .part5 a {
-    border: 1px solid black;
     color: black;
     margin: 0 5px 0 5px; 
     padding: 3px 15px 3px 15px;
     text-decoration: none;
 }
 .part5 a:hover {
-    background-color: lightblue;
+    color: mediumaquamarine;
+    text-transform: uppercase;
 }
 .part5 button {
+    background-color: transparent;
+    color: black;
     font-weight: 600;
     padding: 15px 20px;
     margin: 30px;
 }
+.part5 button:hover {
+    background-color: gray;
+}
 
 /* Part 6 */
 
-.part6 {
-    background-color: black;
+
+
+/* Part 7 */
+
+.part7 {
     height: 500px;
-    opacity: 0.8;
 }
-.part6 h2 {
-    color: white;
+.part7 h2 {
+    color:black;
     font-size: 45px;
     font-weight: 100;
     margin-left: 50px;
     margin-top: 50px;
     padding: 20px 0 5px 0;
 }
-.part6 p {
-    color: white;
+.part7 p {
+    color: black;
     font-size: 16px;
     font-weight: 100;
     margin-bottom: 50px;
     margin-left: 50px;
 }
-.part6 h5 {
-    color: white;
+.part7 h5 {
+    color: black;
     margin-left: 50px;
     margin-top: 20px;
 }
-.part6 h6 {
-    color: white;
+.part7 h6 {
+    color: black;
     font-weight: 100;
     margin: 5px 0 5px 50px;
     padding: 5px;
@@ -197,30 +189,30 @@ nav ul li a {
 form {
     margin-top: 100px;
 }
-.part6 input {
+.part7 input {
     background-color: transparent;
     border: none;
     color: whitesmoke;
     font-size: 16px;
 }
 #inputMessage {
-    height: 100px;
+    height: 80px;
 }
-.part6 button {
+.part7 button {
     background-color: transparent;
-    color: whitesmoke;
+    color: black;
     font-weight: 600;
     padding: 15px 30px;
     margin: 20px;
 }
-.part6 button:hover {
+.part7 button:hover {
     background-color: gray;
 } 
 
 /* Footer */
 
 .footer {
-    background-color:black;
+    background-color: black;
     opacity: 0.8;
     padding: 20px;
 }
@@ -228,7 +220,7 @@ form {
     color: black;
 }
 .footerlinks a {
-    color: turquoise;
+    color: lightgray;
     padding: 5px 10px 0 10px;
     text-decoration: none;
 }
@@ -244,7 +236,8 @@ form {
     font-weight: 200;
 }
 .copyright span {
-    color: turquoise;
+    color: mediumaquamarine;
+    font-size: 12px;
     font-weight: 600;
 } 
 
@@ -254,7 +247,7 @@ form {
 @media (max-width: 1100px) {
     .part2 h6 {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 20px;
         padding: 10px;
     }
     .part2 p {
@@ -268,6 +261,14 @@ form {
     .part3 .card {
         width: 18em;
         height: 35em;
+    }
+}
+@media (max-width: 1070px) {
+    .part1 h1 {
+        color: black;
+        font-size: 80px;
+        font-family: 'Niconne', cursive;
+        padding-bottom: 160px;
     }
 }
 @media (max-width: 1030px) {
@@ -302,10 +303,10 @@ form {
 }
 @media (max-width: 930px) {
     .part1 h1 {
-        font-size: 40px;
+        font-size: 60px;
     }
     .part3 {
-        padding-top: 100px;
+        padding-top: 120px;
     }
     .part3 .card {
         height: 30em;
@@ -320,7 +321,7 @@ form {
         color: black;
         font-size: 45px;
         font-weight: 100;
-        padding: 50px 0 5px 0;
+        padding: 120px 0 5px 0;
     }
     .part3 .card {
         height: 25em;
@@ -342,8 +343,8 @@ form {
     .part5 .card {
         margin: 30px;
     }
-    .part6 h2 {
-        color: white;
+    .part7 h2 {
+        color: black;
         font-size: 30px;
         font-weight: 100;
         margin-left: 50px;
@@ -362,6 +363,9 @@ form {
     .part2 p {
         font-size: 12px;
         font-weight: 200;
+    }
+    .part3 {
+        padding-top: 50px;
     }
     .part3 h2 {
         font-size: 30px;
@@ -389,19 +393,17 @@ form {
     .part5 .card {
         margin: 35px;
     }
-    .part6 h2 {
+    .part7 h2 {
         font-size: 30px;
     }
 }
 @media (max-width: 575px) {
     .part3 {
-        padding-top: 120px;
+        padding-top: 50px;
     }
-    .part6 {
-        background-color: black;
+    .part7 {
         height: 900px;
-        opacity: 0.8;
-    } 
+    }
 }
 @media (max-width: 472px) {
     
