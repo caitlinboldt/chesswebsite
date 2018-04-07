@@ -1,3 +1,7 @@
+* {
+    font-family: 'Oxygen', sans-serif;
+}
+
 /* Nav Bar */
 
 nav ul li a {
@@ -16,7 +20,7 @@ nav ul li a {
 .part1 h1 {
     color: black;
     font-size: 90px;
-    font-family: 'Niconne', cursive;
+    font-family: 'Niconne';
     padding-bottom: 180px;
 }
 
