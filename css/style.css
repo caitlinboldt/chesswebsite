@@ -132,9 +132,6 @@
 
 /* Part 5 */
 
-.part5 .card {
-    width: 10%;
-}
 .part5 h2 {
     color: black;
     font-size: 60px;
@@ -148,7 +145,7 @@
     padding-bottom: 25px;
 }
 .part5 img {
-    height: 150px;
+    height: 230px;
 }
 .part5 h6 {
     font-weight: 100;
