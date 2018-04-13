@@ -75,6 +75,9 @@ nav ul li a {
 .part3 .card p {
     font-size: 16px;
 }
+.part3 .card-link:hover {
+    opacity: 0.5;
+}
 .part3 .fa-facebook-f {
     color: #3B60B8;
     font-size: 20px;

@@ -1,0 +1,21 @@
+.headline {
+    background-color: whitesmoke;
+    height: 100px;
+    margin: 100px 100px 10px 100px;
+}
+.headline h1 {
+    font-family: 'Niconne';
+    font-size: 70px;
+    padding: 5px;
+}
+
+.instructor img {
+    border: 5px solid whitesmoke;
+    margin: 25px;
+    padding: 25px;
+    width: 60%;
+}
+.img-info {
+    margin: 50px;
+}
+
