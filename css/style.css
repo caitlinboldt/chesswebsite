@@ -8,7 +8,7 @@
     font-size: 16px;
 }
 .othersite {
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 /* Part 1 */
@@ -16,9 +16,11 @@
 .part1 {
     background-image: url(../img/scacchiera_inferiore.jpg);
     background-repeat: no-repeat; 
+    background-size: contain;
     height: 400px;
     margin-top: 120px;
     text-align: center;
+    width: 100%;
 }
 .part1 h1 {
     color: black;
@@ -47,7 +49,7 @@
 
 .part3 {
     background-color: lightblue;
-    padding-top: 180px;
+    padding-top: 165px;
 }
 .part3 h2 {
     color: black;
@@ -254,6 +256,15 @@ form {
 
 /* Media Queries */
 
+@media (max-width: 1199px) {
+    .othersite {
+        padding: 30px 0;
+    }
+    .part1 h1 {
+        font-size: 80px;
+        padding-bottom: 140px;
+    }
+}
 @media (max-width: 1100px) {
     .part2 h6 {
         font-weight: 700;
@@ -275,13 +286,18 @@ form {
 }
 @media (max-width: 1070px) {
     .part1 h1 {
-        color: black;
         font-size: 80px;
-        font-family: 'Niconne', cursive;
         padding-bottom: 160px;
+    }
+    .part3 {
+        padding-top: 100px;
     }
 }
 @media (max-width: 1030px) {
+    .part1 h1 {
+        font-size: 80px;
+        padding-bottom: 140px;
+    }
     .part2 h6 {
         font-weight: 700;
         font-size: 16px;
@@ -296,8 +312,7 @@ form {
         padding: 5px;
     }
     .part3 {
-        background-color: lightblue;
-        padding-top: 180px;
+        padding-top: 75px;
     }
     .part3 h2 {
         color: black;
@@ -314,9 +329,10 @@ form {
 @media (max-width: 930px) {
     .part1 h1 {
         font-size: 60px;
+        padding-bottom: 135px;
     }
     .part3 {
-        padding-top: 135px;
+        padding-top: 60px;
     }
     .part3 .card {
         height: 30em;
@@ -327,14 +343,24 @@ form {
     }
 }
 @media (max-width: 767px) {
+    .part1 h1 {
+        padding-bottom: 100px;
+    }
     .part2 .box {
         background-color: white;
         border: 1px solid black;
         margin-bottom: 10px;
         padding: 5px;
+        width: 80%;
+    }
+    .part3 {
+        padding-top: 120px;
     }
 }
 @media (max-width: 750px) {
+    .part3 {
+        padding-top: 70px;
+    }
     .part3 h2 {
         color: black;
         font-size: 45px;
@@ -370,9 +396,18 @@ form {
         padding: 20px 0 5px 0;
     }
 }
+@media (max-width: 683px) {
+    .part1 h1 {
+        padding-bottom: 50px;
+    }
+    .part3 {
+        padding-top: 100px;
+    }
+}
 @media (max-width: 600px) {
     .part1 h1 {
         font-size: 30px;
+        padding-bottom: 100px;
     }
     .part2 h6 {
         font-size: 14px;
@@ -383,7 +418,7 @@ form {
         font-weight: 200;
     }
     .part3 {
-        padding-top: 50px;
+        padding-top: 10px;
     }
     .part3 h2 {
         font-size: 30px;
@@ -417,14 +452,19 @@ form {
 }
 @media (max-width: 575px) {
     .part3 {
-        padding-top: 50px;
+        padding-top: 10px;
     }
     .part7 {
         height: 900px;
     }
 }
 @media (max-width: 472px) {
-    
+    .part1 h1 {
+        padding-bottom: 80px;
+    }
+    .part3 {
+        padding-top: 20px;
+    }
     .part3 .card {
         height: 20em;
         margin: 0.4em;
