@@ -78,18 +78,7 @@
 .part3 h3 {
     font-weight: 900;
 }
-/* Previous CSS */
-.part3 .card h5 {
-    font-size: 20px;
-}
-.part3 .card h6 {
-    font-size: 14px;
-    font-weight: 100;
-}
-.part3 .card p {
-    font-size: 16px;
-}
-.part3 .card-link:hover {
+.part3 .link:hover {
     opacity: 0.5;
 }
 .part3 .fa-facebook-f {
