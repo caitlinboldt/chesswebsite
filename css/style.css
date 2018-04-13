@@ -4,8 +4,11 @@
 
 /* Nav Bar */
 
-nav ul li a {
+.navbar ul li a {
     font-size: 16px;
+}
+.othersite {
+    padding-left: 15px;
 }
 
 /* Part 1 */
