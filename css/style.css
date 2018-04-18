@@ -78,7 +78,7 @@
 .part3 h3 {
     font-weight: 900;
 }
-.part3 .link:hover {
+.part3 .card-link:hover {
     opacity: 0.5;
 }
 .part3 .fa-facebook-f {
