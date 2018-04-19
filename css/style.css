@@ -68,7 +68,7 @@
     width: 60%;
 }
 .img-info {
-    padding-top: 100px;
+    padding: 70px;
 }
 .part3 hr {
     color: white;
@@ -331,7 +331,7 @@ form {
 }
 @media (max-width: 767px) {
     .part1 h1 {
-        padding-bottom: 100px;
+        padding-bottom: 20px;
     }
     .part2 .box {
         background-color: white;
@@ -341,7 +341,7 @@ form {
         width: 80%;
     }
     .part3 {
-        padding-top: 120px;
+        padding-top: 180px;
     }
 }
 @media (max-width: 750px) {
