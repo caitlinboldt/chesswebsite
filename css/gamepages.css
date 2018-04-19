@@ -18,4 +18,7 @@
 .img-info {
     margin: 50px;
 }
+.chessboard h3 {
+    text-decoration: underline;
+}
 
