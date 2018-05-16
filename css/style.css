@@ -6,9 +6,15 @@
 
 .navbar ul li a {
     font-size: 16px;
+    margin: 10px;
+    padding: 5px;
 }
-.othersite {
-    padding-left: 20px;
+.navbar ul li a:hover {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#othersite:hover {
+    color: rgb(70, 99, 180);
 }
 
 /* Part 1 */
@@ -26,7 +32,7 @@
     color: black;
     font-size: 90px;
     font-family: 'Niconne';
-    padding-bottom: 180px;
+    padding-bottom: 170px;
 }
 
 /* Part 2 */
@@ -49,7 +55,7 @@
 
 .part3 {
     background-color: lightblue;
-    padding-top: 165px;
+    padding-top: 170px;
 }
 .part3 h2 {
     color: black;
@@ -238,12 +244,12 @@ form {
 }
 .copyright h6 {
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 200;
 }
 .copyright span {
-    color: mediumaquamarine;
-    font-size: 12px;
+    color: rgb(70, 99, 180);;
+    font-size: 13px;
     font-weight: 600;
 } 
 
