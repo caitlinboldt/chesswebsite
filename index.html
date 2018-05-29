@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-	<!--[if IE 7]><html class="lt-ie9 lt-ie8"> <![endif]-->
-	<!--[if IE 8]><html class="lt-ie9"> <![endif]-->
-	<!--[if gt IE 8]><!-->
   <head>
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -28,214 +24,204 @@
   </head>
   <body>
     
+    
     <!-- Nav Bar -->
-
-    <div class="navbar fixed-top navbar-expand-xl navbar-light" style="background-color:lightblue; opacity: 0.95;">
-      <div class="container">
-        <span class="navbar-brand mb-0 h1">Chess Vecchilibri</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="patterns.html">Patterns</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="games.html">Games</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="courses.html">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="books.html">Books</a>
-            </li>
-            <li class="nav-item">
-              <a id="othersite" class="nav-link" href="http://scacchi.vecchilibri.eu/">Italiano</a>
-            </li>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Chess Vecchilibri</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="patterns.html">Patterns</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="http://scacchi.vecchilibri.eu/" id="othersite">Italiano</a></li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn searchbtn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
           </form>
         </div>
       </div>
-    </div>
+    </nav>
 
     <!-- Part 1 -->
 
-    <div class="container part1">
-      <h1 class="text-center">Learn Winning Chess Patterns</h1>
-      
+  <div class="container part1">
+    <h1 class="text-center">Learn Winning Chess Patterns</h1>
 
     <!-- Part 2 -->
 
-    
-      <div class="row part2 text-center">
-        <div class="col-md-3 mx-auto box">
-          <h6>Unconventional Approach</h6>
-          <p>The approach is unconventional, you will not find commented games. Instead a series of behaviors, tips, and exercises. First increase your knowledge. Second your ability.</p>
-        </div>
-        <div class="col-md-3 mx-auto box">
-          <h6>Requirements</h6>
-          <p>To participate and win; to climb the ladder we need <strong>knowledge</strong>, <strong>courage</strong> and <strong>skills</strong>.</p>
-        </div>
-        <div class="col-md-3 mx-auto box">
-          <h6>Never forget</h6>
-          <p>For chess these three requirements are a neccessity. Knowledge alone is not enough. If you do not have the courage, opportunities to attack will be lost. Futhermore to have skill, you must train.</p>
+    <div class="row part2 text-center">
+      <div class="col-sm-3 col-xs-offset-1 box">
+        <h6>Unconventional Approach</h6>
+        <p>The approach is unconventional, you will not find commented games. Instead a series of behaviors, tips, and exercises. First increase your knowledge. Second your ability.</p>
+      </div>
+      <div class="col-sm-2 col-xs-offset-1 box">
+        <h6>Requirements</h6>
+        <p>To participate and win; to climb the ladder we need <strong>knowledge</strong>, <strong>courage</strong> and <strong>skills</strong>.</p>
+      </div>
+      <div class="col-sm-3 col-xs-offset-1 box">
+        <h6>Never forget</h6>
+        <p>For chess these three requirements are a neccessity. Knowledge alone is not enough. If you do not have the courage, opportunities to attack will be lost. Futhermore to have skill, you must train.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Part 3 -->
+
+  <div class="container part3 text-center">
+    <h2>MEET OUR TEAM</h2>
+    <p class="top">We are always looking for new students. Welcome at any skill level. Check out our Facebook, Linkedin and Amazon pages.</p>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="http://scacchi.vecchilibri.eu/immagine_amazon_Rodolfo_250px.jpg" alt="Rodolfo Pardi">
+      </div>
+      <div class="col-md-6 img-info">
+        <h3>Rodolfo Pardi</h3>
+        <p>Instructor - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi doloribus, saepe cum delectus sint repellendus atque omnis quos facilis rerum soluta laudantium hic? Reiciendis dolore molestias ab quae tempore. Ipsum!</p>
+        <a href="#" class="card-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="card-link"><i class="fab fa-amazon"></i></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-6 img-info">
+        <h3>Andrea Gori</h3>
+        <p>Instructor - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi doloribus, saepe cum delectus sint repellendus atque omnis quos facilis rerum soluta laudantium hic? Reiciendis dolore molestias ab quae tempore. Ipsum!</p>
+        <a href="#" class="card-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="card-link"><i class="fab fa-amazon"></i></a>
+      </div>
+      <div class="col-md-6 mx-auto">
+        <img src="http://scacchi.vecchilibri.eu/andrea250.jpg" alt="Andrea Gori">
+      </div>
+    </div>
+  </div>
+
+  <!-- Part 4 -->
+
+  <div class="container part4">
+    <div class="row">
+      <div class="col-sm-2">
+        <i class="fas fa-chess"></i>
+      </div>
+      <div class="col-sm-10 w-100 mx-auto">
+        <div class="card-body">
+          <h5 class="card-title">Sample Games</h5>
+          <p class="card-text">We provide sample games. Check them out!</p>
+          <a class="btn btn-default" href="games.html" role="button">Games</a>
         </div>
       </div>
     </div>
-    
-
-    <!-- Part 3 -->
-
-    <div class="container part3 text-center">
-      <h2>MEET OUR TEAM</h2>
-      <p class="top">We are always looking for new students. Welcome at any skill level. Check out our Facebook, Linkedin and Amazon pages.</p>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="http://scacchi.vecchilibri.eu/immagine_amazon_Rodolfo_250px.jpg" alt="Rodolfo Pardi">
-        </div>
-        <div class="col-md-6 mx-auto img-info">
-          <h3>Rodolfo Pardi</h3>
-          <p>Instructor - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi doloribus, saepe cum delectus sint repellendus atque omnis quos facilis rerum soluta laudantium hic? Reiciendis dolore molestias ab quae tempore. Ipsum!</p>
-          <a href="#" class="card-link"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="card-link"><i class="fab fa-amazon"></i></a>
+    <hr>
+    <div class="row">
+      <div class="col-sm-10 w-100 mx-auto text-right">
+        <div class="card-body">
+          <h5 class="card-title">Your Opinions Matter</h5>
+          <p class="card-text">Feedback is an important thing for us. Your opinions and thoughts help to improve our work and our teaching. Let us know what content has been useful to you. What has strenghthened your game the most?  </p>
+          <button type="button" class="btn btn-default">Advise Us</button>
         </div>
       </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-6 img-info">
-          <h3>Andrea Gori</h3>
-          <p>Instructor - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi doloribus, saepe cum delectus sint repellendus atque omnis quos facilis rerum soluta laudantium hic? Reiciendis dolore molestias ab quae tempore. Ipsum!</p>
-          <a href="#" class="card-link"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="card-link"><i class="fab fa-linkedin"></i></a>
-          <a href="#" class="card-link"><i class="fab fa-amazon"></i></a>
+      <div class="col-sm-2">
+        <i class="fas fa-chess-queen"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Part 5 -->
+
+  <div class="container part5 text-center">
+    <h2>BOOK PREVIEWS</h2>
+    <p class="top">Below you will find ebooks to preview and buy on Amazon.</p>
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="http://www.barringtonbooksretold.com/sites/barringtonbooksretold.com/files/book-club-recomendations.jpg" alt="...">
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-default" role="button">Preview</a> <a href="#" class="btn btn-default" role="button">Buy</a></p>
+          </div>
         </div>
-        <div class="col-md-6 mx-auto">
-          <img src="http://scacchi.vecchilibri.eu/andrea250.jpg" alt="Andrea Gori">
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="http://www.barringtonbooksretold.com/sites/barringtonbooksretold.com/files/book-club-recomendations.jpg" alt="...">
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-default" role="button">Preview</a> <a href="#" class="btn btn-default" role="button">Buy</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="http://www.barringtonbooksretold.com/sites/barringtonbooksretold.com/files/book-club-recomendations.jpg" alt="...">
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-default" role="button">Preview</a> <a href="#" class="btn btn-default" role="button">Buy</a></p>
+          </div>
         </div>
       </div>
     </div>
-  
-    <!-- Part 4 -->
+    <button type="button" class="btn btn-default">Reviews on Amazon</button>
+  </div>
 
-    <div class="container part4">
-      <div class="row">
-        <div class="col-sm-2">
-          <i class="fas fa-chess"></i>
-        </div>
-        <div class="col-sm-10 w-100 mx-auto">
-          <div class="card-body">
-            <h5 class="card-title">Sample Games</h5>
-            <p class="card-text">We provide sample games. Check them out!</p>
-            <a class="btn btn-dark" href="games.html" role="button">Games</a>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-sm-10 w-100 mx-auto text-right">
-          <div class="card-body">
-            <h5 class="card-title">Your Opinions Matter</h5>
-            <p class="card-text">Feedback is an important thing for us. Your opinions and thoughts help to improve our work and our teaching. Let us know what content has been useful to you. What has strenghthened your game the most?  </p>
-            <button type="button" class="btn btn-dark">Advise Us</button>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <i class="fas fa-chess-queen"></i>
-        </div>
-      </div>
-    </div>
+  <!-- Part 6 -->
 
-    <!-- Part 5 -->
+  <div class="container part6">
+    <img src="https://github.com/caitlinboldt/chesswebsite/blob/master/img/scacchiera_superiore.jpg?raw=true" alt="Cats with chess pieces" class="img-responsive">
+  </div>
 
-    <div class="container part5 text-center">
-      <h2>BOOK PREVIEWS</h2>
-      <p class="top">Below you will find ebooks to preview and buy on Amazon.</p>
-      <div class="row">
-        <div class="card">
-          <img src="http://www.barringtonbooksretold.com/sites/barringtonbooksretold.com/files/book-club-recomendations.jpg" alt="">
-          <div class="card-body">
-            <h4><b>Book Title</b></h4> 
-            <p>Description</p> 
-          </div>
-          <div class="card-footer">
-            <a href="">Preview</a>
-            <a href="">Buy</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="http://www.barringtonbooksretold.com/sites/barringtonbooksretold.com/files/book-club-recomendations.jpg" alt="">
-          <div class="card-body">
-            <h4><b>Book title</b></h4> 
-            <p>Description</p> 
-          </div>
-          <div class="card-footer">
-            <a href="">Preview</a>
-            <a href="">Buy</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="http://www.barringtonbooksretold.com/sites/barringtonbooksretold.com/files/book-club-recomendations.jpg" alt="">
-          <div class="card-body">
-            <h4><b>Book title</b></h4> 
-            <p>Description</p> 
-          </div>
-          <div class="card-footer">
-            <a href="">Preview</a>
-            <a href="">Buy</a>
-          </div>
-        </div>
-      </div>
-      <button type="button" class="btn btn-dark">Reviews on Amazon</button>
-    </div>
-
-
-    <!-- Part 6 -->
-
-    <div class="container part6">
-      <img src="https://github.com/caitlinboldt/chesswebsite/blob/master/img/scacchiera_superiore.jpg?raw=true" alt="Cats with chess pieces" class="img-fluid">
-    </div>
-
-    <!-- Part 7 -->
+  <!-- Part 7 -->
 
   <div class="container part7">
-    <div class="row">
-      <div class="col-sm-5 mx-auto">
-        <h2>Contact Us</h2>
-        <p>We love to hear from you!</p>
-        <h5>Address:</h5>
-        <h6>1999 street, location</h6>
-        <h5>Email:</h5>
-        <h6>something@gmail.com</h6>
+  <div class="row">
+    <div class="col-sm-5 mx-auto">
+      <h2>Contact Us</h2>
+      <p>We love to hear from you!</p>
+      <h5>Address:</h5>
+      <h6>1999 street, location</h6>
+      <h5>Email:</h5>
+      <h6>something@gmail.com</h6>
 
-      </div>
-      <div class="col-sm-7 mx-auto text-center">
-        <form>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <input type="email" class="form-control" id="inputFullName4" placeholder="Full Name:">
-              <hr>
-            </div>
-            <div class="form-group col-md-6">
-              <input type="password" class="form-control" id="inputEmail4" placeholder="Email:">
-              <hr>
-            </div>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="inputMessage" placeholder="Message:">
+    </div>
+    <div class="col-sm-7 text-center">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input type="email" class="form-control" id="inputFullName4" placeholder="Full Name:">
             <hr>
           </div>
-          <button type="button" class="btn btn-dark">Send</button>
-        </form>
-      </div>
+          <div class="form-group col-md-6">
+            <input type="password" class="form-control" id="inputEmail4" placeholder="Email:">
+            <hr>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="inputMessage" placeholder="Message:">
+          <hr>
+        </div>
+        <button type="button" class="btn btn-default">Send</button>
+      </form>
     </div>
+  </div>
   </div>
 
   <!-- Footer -->
@@ -255,13 +241,9 @@
     </div>
   </div> 
   
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
     <!-- Custom js -->
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     
   </body>
 </html>
