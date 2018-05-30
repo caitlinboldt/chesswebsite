@@ -18,6 +18,12 @@
 .img-info {
     margin: 50px;
 }
+.img-info h5 {
+    font-size: 20px;
+}
+.img-info p {
+    font-size: 16px;
+}
 .chessboard h3 {
     text-decoration: underline;
 }
