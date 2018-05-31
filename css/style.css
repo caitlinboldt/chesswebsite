@@ -245,6 +245,92 @@ form {
     background-color: gray;
 } 
 
+/* Contact Form */
+
+.contact-me-nested {
+    height: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .contact-me-nested input,
+  .contact-me-nested textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 2px solid #333333;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+  .contact-me-nested textarea {
+    font-size: 14px;
+    letter-spacing: 2px;
+    resize: vertical;
+    min-height: 100px;
+  }
+  .contact-me-nested button {
+      display: block;
+      width: 150px;
+      margin: auto;
+      padding: 15px 20px;
+      background-color: transparent;
+      border: 2px solid #333333;
+      outline:none;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 3px;
+      -moz-transition: all .4s linear;
+      -o-transition: all .4s linear;
+      -webkit-transition: all .4s linear;
+      transition: all .4s linear;
+  }
+    .contact-me-nested button:hover{
+      background-color:gray;
+      color:#fff;
+  }
+  .contact-me-nested .form-filed-container{
+      padding:20px 0 40px;
+      position:relative;
+  }
+.contact-me-nested .form-filed-container [class^="error"]{
+      position:absolute;
+      top:5px;
+      text-transform:uppercase;
+      font-size:10px;
+      letter-spacing:4px;
+      display:none;
+  }
+  .success{
+      width:100%;
+      position:relative;
+      background-color:#e8e8e8;
+      color:#222222;
+      font-size:40px;
+      display:none;
+  }
+  .success h4 {
+      width:100%;
+      text-align: center;
+      padding: 20px;
+      font-size: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      -o-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+  }
+  .success h4 span{
+      display:inline-block;
+  }
+  
+
 /* Footer */
 
 .footer {
