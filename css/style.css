@@ -124,6 +124,7 @@
     font-size: 70px;
 }
 .part4 .btn {
+    border: 2px solid black;
     padding: 10px 15px;
 }
 .btn:hover {
@@ -180,6 +181,7 @@
 }
 .part5 button {
     background-color: transparent;
+    border: 2px solid black;
     color: black;
     font-weight: 600;
     padding: 15px 20px;
@@ -236,6 +238,7 @@ form {
 }
 .part7 button {
     background-color: transparent;
+    border: 2px solid black;
     color: black;
     font-weight: 600;
     padding: 15px 30px;
@@ -273,11 +276,9 @@ form {
   }
   .contact-me-nested button {
       display: block;
-      width: 150px;
       margin: auto;
-      padding: 15px 20px;
       background-color: transparent;
-      border: 2px solid #333333;
+      border: 2px solid black;
       outline:none;
       text-decoration: none;
       font-size: 20px;
