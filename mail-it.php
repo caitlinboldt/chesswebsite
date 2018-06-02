@@ -3,8 +3,8 @@
 /* Code by David McKeown - craftedbydavid.com */
 /* Editable entries are below */
 
-$send_to = "caitlin@boldt.ca";
-$send_subject = "caitlinboldt.com Message! ";
+$send_to = "info@vecchilibri.eu";
+$send_subject = "Chess Vecchilibri Message! ";
 
 
 

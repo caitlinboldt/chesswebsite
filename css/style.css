@@ -126,6 +126,10 @@
 .part4 .btn {
     border: 2px solid black;
     padding: 10px 15px;
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
 }
 .btn:hover {
     background-color: darkgray;
@@ -169,14 +173,16 @@
     padding: 5px;
 }
 .part5 a {
+    border: none;
     color: black;
+    font-size: 18px;
     margin: 5px; 
     padding: 3px 15px 3px 15px;
     text-decoration: none;
 }
 .part5 a:hover {
     background-color: transparent;
-    color: mediumaquamarine;
+    color: rgb(70, 99, 180);
     text-transform: uppercase;
 }
 .part5 button {
@@ -186,6 +192,10 @@
     font-weight: 600;
     padding: 15px 20px;
     margin: 30px;
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
 }
 .part5 button:hover {
     background-color: gray;
@@ -359,7 +369,7 @@ form {
     font-weight: 200;
 }
 .copyright span {
-    color: rgb(70, 99, 180);;
+    color: rgb(70, 99, 180);
     font-size: 13px;
     font-weight: 600;
 } 
