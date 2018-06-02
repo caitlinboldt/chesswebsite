@@ -1,6 +1,6 @@
-$('.searchbtn').click(function(){
-    //get user input
-    const userSearch = $('.searchinput').val();
-    console.log(userSearch);
-});
-	
+
+function checkInput() {
+    var query = document.getElementById('search').value;
+    window.find(query);
+    return true;
+}
