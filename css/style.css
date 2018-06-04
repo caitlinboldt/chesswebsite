@@ -457,7 +457,7 @@ form {
 }
 @media (max-width: 791px) {
         .part1 h1 {
-            padding-bottom: 40px;
+            padding-bottom: 60px;
         }
 }
 @media (max-width: 767px) {
@@ -499,7 +499,7 @@ form {
 }
 @media (max-width: 683px) {
     .part1 h1 {
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     .part3 {
         padding-top: 100px;
@@ -508,7 +508,7 @@ form {
 @media (max-width: 600px) {
     .part1 h1 {
         font-size: 32px;
-        padding-bottom: 100px;
+        padding-bottom: 70px;
     }
     .part2 h6 {
         font-size: 14px;
@@ -544,7 +544,8 @@ form {
 }
 @media (max-width: 472px) {
     .part1 h1 {
-        padding-bottom: 80px;
+        font-size: 40px;
+        padding-bottom: 20px;
     }
     .part3 {
         padding-top: 40px;
