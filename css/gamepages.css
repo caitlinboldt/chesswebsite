@@ -11,18 +11,9 @@
 
 .instructor img {
     border: 5px solid whitesmoke;
+    height: 350px;
     margin: 25px;
-    padding: 25px;
-    width: 60%;
-}
-.img-info {
-    margin: 50px;
-}
-.img-info h5 {
-    font-size: 20px;
-}
-.img-info p {
-    font-size: 16px;
+    width: 75%;
 }
 .chessboard h3 {
     text-decoration: underline;
