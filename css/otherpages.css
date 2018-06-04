@@ -19,6 +19,8 @@ h2 {
 .p-info {
     font-weight: 600;
     margin: 20px 0;
+    padding: 10px 100px;
+    text-align: center;
 }
 img {
     height: 300px;
