@@ -55,9 +55,17 @@ img {
 
 /* Media Queries */
 
+@media (max-width: 630px) {
+    .large-img {
+        height: 300px;
+    }
+}
 @media (max-width: 530px) {
     .headline {
         margin: 100px 50px 10px 50px;
+    }
+    .p-info {
+        padding: 10px;
     }
 }
 @media (max-width: 430px) {
