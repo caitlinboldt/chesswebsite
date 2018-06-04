@@ -538,6 +538,9 @@ form {
     .part3 {
         padding-top: 10px;
     }
+    .img-info {
+        padding: 5px;
+    }
     .part7 {
         height: 900px;
     }
