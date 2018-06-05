@@ -3,7 +3,7 @@
 .headline {
     background-color: whitesmoke;
     height: 100px;
-    margin: 100px 100px 60px 100px;
+    margin: 100px 100px 50px 100px;
 }
 .headline h1 {
     font-family: 'Niconne';
@@ -33,7 +33,7 @@ img {
     width: 100%;
 }
 
-/* Main Content - Books */
+/* Main Content - Books/Courses */
 .book {
     text-align: center;
 }
@@ -52,6 +52,29 @@ img {
 }
 
 /* Main Content - Courses */
+
+.c1 {
+    padding: 30px;
+}
+.c2 {
+    background-color: lightblue;
+    padding: 30px;
+}
+.c3 {
+    padding: 30px;
+}
+.c-h2 {
+    font-size: 60px;
+    font-weight: 200;
+    margin: 20px;
+    padding: 20px;
+}
+.c-p {
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
 
 /* Media Queries */
 
