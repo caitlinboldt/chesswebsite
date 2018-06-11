@@ -4,17 +4,26 @@
 
 /* Nav Bar */
 
+nav form {
+    margin: 0;
+    display: inline;
+}
+nav .form-group {
+    color: black;
+    margin: 0;
+    width: 300px;
+}
 .navbar {
     background-color: lightblue;
     color: white;
 }
 .navbar ul li a {
-    font-size: 16px;
-    margin: 10px;
+    font-size: 18px;
+    margin: 18px;
     padding: 5px;
 }
 .navbar ul li a:hover {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
 }
 #othersite:hover {
@@ -22,6 +31,7 @@
 }
 .navbar-brand {
     font-size: 26px;
+    margin: 6px;
 }
 
 /* Part 1 */
@@ -402,6 +412,20 @@ form {
         padding-bottom: 140px;
     }
 }
+@media (max-width: 1185px) {
+    .navbar ul li a {
+        font-size: 16px;
+        margin: 15px;
+        padding: 5px;
+    }
+    .navbar ul li a:hover {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    nav form {
+        display: none;
+    }
+}
 @media (max-width: 1100px) {
     .part2 h6 {
         font-weight: 700;
@@ -463,6 +487,11 @@ form {
         padding-bottom: 5px;
     }
 }
+@media (max-width: 945px) {
+    nav form {
+        display: none;
+    }
+}
 @media (max-width: 930px) {
     .part1 h1 {
         font-size: 70px;
@@ -471,12 +500,33 @@ form {
         padding-top: 60px;
     }
 }
+@media (max-width: 795px) {
+    .navbar ul li a {
+        font-size: 16px;
+        margin: 12px;
+        padding: 5px;
+    }
+    .navbar ul li a:hover {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .navbar-brand {
+        font-size: 26px;
+        margin: 4px;
+    }
+}
 @media (max-width: 791px) {
         .part1 h1 {
             padding-bottom: 60px;
         }
 }
 @media (max-width: 767px) {
+    nav form {
+        display: inline;
+    }
+    nav .form-group {
+        width: 300px;
+    }
     .part1 h1 {
         font-size: 60px;
     }

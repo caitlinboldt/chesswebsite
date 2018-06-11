@@ -1,14 +1,3 @@
-/* Search */
-
-nav .form-group {
-    color: black;
-    width: 300px;
-}
-.cse .gsc-control-cse, .gsc-control-cse {
-    margin: 0;
-    padding: 0;
-}
-
 /* Header */
 
 .headline {
@@ -88,7 +77,6 @@ h2 {
 }
 
 /* Media Queries */
-
 @media (max-width: 630px) {
     .large-img {
         height: 300px;
