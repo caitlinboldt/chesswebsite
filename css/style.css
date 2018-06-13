@@ -372,9 +372,17 @@ form {
 .footer {
     background-color: black;
     opacity: 0.8;
+    margin-top: 40px;
     padding: 20px;
 }
-.footer hr {
+.footer-home {
+    background-color: black;
+    opacity: 0.8;
+    margin-top: 40px;
+    padding: 20px;
+}
+.footer, 
+.footer-home hr {
     color: black;
 }
 .footerlinks a {
@@ -540,6 +548,9 @@ form {
     .part3 {
         padding-top: 140px;
     }
+    .footer-home {
+        margin-top: 400px;
+    }
 }
 @media (max-width: 750px) {
     .part3 {
@@ -609,6 +620,9 @@ form {
     }
     .part7 {
         height: 900px;
+    }
+    .footer-home {
+        margin-top: 20px;
     }
 }
 @media (max-width: 472px) {
