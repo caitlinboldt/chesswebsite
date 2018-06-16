@@ -77,6 +77,22 @@ h2 {
 }
 
 /* Media Queries */
+@media (max-width: 1200px) {
+    .img {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (max-width: 991px) {
+    .large-img {
+        height: 300px;
+        width: 300px;
+    }
+    .img {
+        height: 300px;
+        width: 300px;
+    }
+}
 @media (max-width: 630px) {
     .large-img {
         height: 300px;
